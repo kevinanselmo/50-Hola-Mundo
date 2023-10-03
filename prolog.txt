@@ -1,0 +1,2 @@
+prolog
+main :- write('Hola Mundo').

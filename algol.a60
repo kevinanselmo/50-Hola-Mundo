@@ -1,0 +1,4 @@
+*ALGOL*
+algol
+BEGIN DISPLAY("Hola Mundo"); END.
+

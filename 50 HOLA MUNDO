@@ -1,0 +1,333 @@
+1. *Python*
+python
+print("Hola Mundo")
+
+
+2. *Java*
+java
+public class Main {
+  public static void main(String[] args) {
+    System.out.println("Hola Mundo");
+  }
+}
+
+
+3. *C#*
+csharp
+using System;
+class Program {
+  static void Main() {
+    Console.WriteLine("Hola Mundo");
+  }
+}
+
+
+4. *JavaScript*
+javascript
+console.log("Hola Mundo");
+
+
+5. *C++*
+cpp
+#include <iostream>
+int main() {
+  std::cout << "Hola Mundo";
+  return 0;
+}
+
+
+6. *Ruby*
+ruby
+puts "Hola Mundo"
+
+
+7. *Swift*
+swift
+import Swift
+print("Hola Mundo")
+
+
+8. *Go*
+go
+package main
+import "fmt"
+func main() {
+  fmt.Println("Hola Mundo")
+}
+
+
+9. *Rust*
+rust
+fn main() {
+  println!("Hola Mundo");
+}
+
+
+10. *TypeScript*
+typescript
+console.log('Hola Mundo');
+
+
+11. *Kotlin*
+kotlin
+fun main(args : Array<String>) {
+  println("Hola Mundo")
+}
+
+
+12. *PHP*
+php
+<?php echo 'Hola Mundo'; ?>
+
+
+13. *Perl*
+perl
+print "Hola Mundo\n";
+
+
+14. *MATLAB*
+MATLAB
+disp('Hola Mundo')
+
+
+15. *Lua*
+lua
+print("Hola Mundo")
+
+
+16. *Erlang*
+erlang
+io:fwrite("Hola Mundo\n").
+
+
+17. *Groovy*
+groovy
+println 'Hola Mundo'
+
+
+18. *Julia*
+julia
+println("Hola Mundo")
+
+
+19. *Fortran*
+fortran
+program helloworld
+  print *, "Hola Mundo"
+end program helloworld
+
+
+20. *R*
+R
+print("Hola Mundo")
+
+
+21. *Haskell*
+haskell
+main = putStrLn "Hola Mundo"
+
+
+22. *Shell*
+shell
+echo "Hola Mundo"
+
+
+23. *Powershell*
+powershell
+Write-Host "Hola Mundo"
+
+
+24. *Bash*
+bash
+echo "Hola Mundo"
+
+
+25. *Scala*
+scala
+object HelloWorld extends App {
+  println("Hola Mundo")
+}
+
+
+26. *Dart*
+dart
+void main() {
+  print('Hola Mundo');
+}
+
+
+27. *Lisp*
+lisp
+(print "Hola Mundo")
+
+
+28. *Objective-C*
+objectivec
+#import <Foundation/Foundation.h>
+int main() {
+   NSLog(@"Hola Mundo");
+   return 0;
+}
+
+
+29. *Clojure*
+clojure
+(println "Hola Mundo")
+
+
+30. *Scheme*
+scheme
+(display "Hola Mundo")
+(newline)
+
+
+31. *Prolog*
+prolog
+main :- write('Hola Mundo').
+
+
+32. *COBOL*
+cobol
+IDENTIFICATION DIVISION.
+PROGRAM-ID. HELLO-WORLD.
+PROCEDURE DIVISION.
+    DISPLAY 'Hola Mundo'.
+    STOP RUN.
+
+
+33. *Assembly (x86)*
+asm
+section .data
+msg db 'Hola Mundo', 0
+
+section .text
+global _start
+
+_start:
+    ; sys_write
+    mov eax, 4
+    ; file descriptor (stdout)
+    mov ebx, 1
+    ; message to write
+    mov ecx, msg
+    ; length of message
+    mov edx, 11
+    int 0x80
+    
+    ; sys_exit
+    mov eax, 1
+    xor ebx, ebx
+    int 0x80
+
+
+34. *Ada*
+ada
+with Ada.Text_IO;
+procedure Hello is
+begin
+  Ada.Text_IO.Put_Line("Hola Mundo");
+end Hello;
+
+
+35. *Visual Basic .NET*
+vbnet
+Module Module1
+    Sub Main()
+        Console.WriteLine("Hola Mundo")
+    End Sub 
+End Module
+
+
+36. *F#*
+fsharp
+printfn "Hola Mundo"
+
+
+37. *Pascal*
+pascal
+program HelloWorld;
+begin
+  WriteLn('Hola Mundo');
+end.
+
+
+38. *SQL (PostgreSQL)*
+sql
+SELECT 'Hola Mundo';
+
+
+39. *Brainfuck*
+brainfuck
+++++++++[>++++++<-]>.  
++++++++[>+++++++<-]>+. 
++++++++..+++.
+>>++++++++[<+++++++>-]<++. 
+>>++++++++++[<++++++++++>-]<+++++++. 
++++.------.--------.
+
+
+40. *Actionscript*
+actionscript
+trace("Hola Mundo");
+
+
+41. *Haxe*
+haxe
+class Main {
+  static function main() {
+    trace('Hola Mundo');
+  }
+}
+
+
+42. *Elixir*
+elixir
+IO.puts "Hola Mundo"
+
+
+43. *B*
+B
+putchar('H'); putchar('o'); putchar('l'); putchar('a');
+putchar(' '); putchar('M'); putchar('u'); putchar('n');
+putchar('d'); putchar('o'); putchar('\n');
+
+
+44. *COBOL*
+cobol
+IDENTIFICATION DIVISION.
+PROGRAM-ID. HOLA-MUNDO.
+PROCEDURE DIVISION.
+    DISPLAY 'Hola Mundo'.
+    STOP RUN.
+
+
+45. *Awk*
+awk
+BEGIN {
+  print "Hola Mundo"
+}
+
+
+46. *ALGOL*
+algol
+BEGIN DISPLAY("Hola Mundo"); END.
+
+
+47. *Smalltalk*
+smalltalk
+Transcript show: 'Hola Mundo'.
+
+
+48. *MUMPS*
+mumps
+WRITE "Hola Mundo",!
+
+
+49. *Maple*
+maple
+print('Hola Mundo');
+
+
+50. *IBM Q Basic*
+```qbasic
+PRINT "Hola Mundo"
